@@ -1,0 +1,123 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+	background-color:black;
+	color:white;
+}
+
+/* header
+----------------------------------------------------------*/
+header {
+    height:70px;
+}
+	header div
+	{
+		float:left;
+	}
+/* menu
+----------------------------------------------------------*/
+	header ul#menu
+	{
+		font-size: 1.3em;
+		font-weight: 600;
+		padding: 0;
+		margin: auto 10px;
+		width: auto;
+		text-align: center;
+	}
+
+		header ul#menu li
+		{
+			display: inline;
+			list-style: none;
+		}
+			header ul#menu li a
+			{
+				display: inline-block;
+				font: 700 20px 黑体;
+				color: white;
+				text-align: center;
+				padding: 10px;
+				width: 130px;
+				transition: all 0.5s;
+				cursor: pointer;
+			}
+
+				header ul#menu li a span
+				{
+					cursor: pointer;
+					display: inline-block;
+					position: relative;
+					transition: 0.5s;
+				}
+
+					header ul#menu li a span:after
+					{
+						content: '»';
+						position: absolute;
+						opacity: 0;
+						top: -5px;
+						right: -5px;
+						transition: 0.5s;
+					}
+
+				header ul#menu li a:hover
+				{
+					background-color: #f4511e;
+				}
+
+					header ul#menu li a:hover span
+					{
+						padding-right: 25px;
+						color: #fff;
+					}
+
+						header ul#menu li a:hover span:after
+						{
+							opacity: 1;
+							right: 0;
+						}
+
+/* footer
+----------------------------------------------------------*/
+div.footer-link
+{
+	display:inline-block;
+	background-color:#454545;
+	margin-right:50px;
+}
+	div.footer-link div
+	{
+		display:inline-block;
+		position:relative;
+		text-align:center;
+		vertical-align:central;
+		margin:auto, 10px;
+	}
+
+a.ubi-btn
+{
+	height:50px;
+	color:white;
+	line-height:50px;
+	padding-left:20px;
+	margin-top:10px;
+	
+}
+a.wx-icon
+{
+	background-position: right center;
+	background-image: url('../../Images/wx_ico.png');
+	background-repeat: no-repeat;
+	width:200px;
+	font-size:14px;
+}
+
+a.wb-icon
+{
+	background-image: url('../../Images/wb_ico.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+	width:200px;
+	font-size:14px;
+}

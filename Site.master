@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="乐客游戏，vr, game" />
+    <meta name="application-name" content="乐客游戏" />
+    <meta name="author" content="乐客游戏" />
+    <link href="App_Themes/Theme1/Site.css" type="text/css" rel="stylesheet" />
+    <title><%: Page.Title %> - 乐客游戏</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <div>
+                <nav>
+                    <ul id="menu">
+                        <li><a id="A3" runat="server" href="~/"><span>LOGO</span></a></li>
+                        <li><a id="A6" runat="server" href="~/Shopping/ShopList.aspx" ><span>公司</span></a></li>
+                        <li><a id="A4" runat="server" href="~/Register.aspx"><span>游戏</span></a></li>
+                        <li><a id="A5" runat="server" href="~/Software/DownLoad.aspx"><span>加入我们</span></a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <a href="#" class="ubi-btn wx-icon">
+                        <div class="footer-link">
+                            乐客中国微信公众号
+                
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="ubi-btn wb-icon">
+                        <div class="footer-link">
+                            乐客中国新浪微博
+                
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="ubi-btn wx-icon">
+                        <div class="footer-link">
+                            <div>乐客手游微信公众号</div>
+                
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="ubi-btn wb-icon">
+                        <div class="footer-link">
+                            <div>乐客手游新浪微博</div>
+                
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+
+        </div>
+    </footer>
+</body>
+</html>
