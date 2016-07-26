@@ -80,44 +80,50 @@ header {
 
 /* footer
 ----------------------------------------------------------*/
-div.footer-link
+footer div.footer-link
+{
+	position:relative;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:30px;
+}
+footer li
 {
 	display:inline-block;
-	background-color:#454545;
+	line-height:50px;
+	margin-top:50px;
 	margin-right:50px;
+	text-align:left;
+	background-color:#454545;
 }
-	div.footer-link div
-	{
-		display:inline-block;
-		position:relative;
-		text-align:center;
-		vertical-align:central;
-		margin:auto, 10px;
-	}
-
 a.ubi-btn
 {
-	height:50px;
+	display:inline-block;
 	color:white;
-	line-height:50px;
-	padding-left:20px;
-	margin-top:10px;
-	
+	height:50px;
 }
 a.wx-icon
 {
-	background-position: right center;
+	background-color:red;
+	background-position: 95% 50%;
 	background-image: url('../../Images/wx_ico.png');
 	background-repeat: no-repeat;
-	width:200px;
-	font-size:14px;
+	font-size: 14px;
+	padding-right: 10px;
+	width: 100%;
 }
 
 a.wb-icon
 {
 	background-image: url('../../Images/wb_ico.png');
 	background-repeat: no-repeat;
-	background-position: right center;
-	width:200px;
-	font-size:14px;
+	background-position: 95% 50%;
+	font-size: 14px;
+	padding-right: 10px;
+	width: 100%;
+}
+span.footer-link
+{
 }

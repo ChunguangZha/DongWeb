@@ -32,38 +32,34 @@
         </asp:ContentPlaceHolder>
     </div>
     <footer>
-        <div>
+        <div class="footer-link">
             <ul>
                 <li>
                     <a href="#" class="ubi-btn wx-icon">
-                        <div class="footer-link">
-                            乐客中国微信公众号
-                
-                        </div>
+                        <span class="footer-link">
+                            乐客中国微信公众号                
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a href="#" class="ubi-btn wb-icon">
-                        <div class="footer-link">
-                            乐客中国新浪微博
-                
-                        </div>
+                        <span class="footer-link">
+                            乐客中国新浪微博                
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a href="#" class="ubi-btn wx-icon">
-                        <div class="footer-link">
-                            <div>乐客手游微信公众号</div>
-                
-                        </div>
+                        <span class="footer-link">
+                            乐客手游微信公众号
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a href="#" class="ubi-btn wb-icon">
-                        <div class="footer-link">
-                            <div>乐客手游新浪微博</div>
-                
-                        </div>
+                        <span class="footer-link">
+                            乐客手游新浪微博
+                        </span>
                     </a>
                 </li>
             </ul>
