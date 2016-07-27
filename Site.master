@@ -15,16 +15,14 @@
 </head>
 <body>
     <header>
-        <div>
                 <nav>
                     <ul id="menu">
-                        <li><a id="A3" runat="server" href="~/"><span>LOGO</span></a></li>
-                        <li><a id="A6" runat="server" href="~/Shopping/ShopList.aspx" ><span>公司</span></a></li>
-                        <li><a id="A4" runat="server" href="~/Register.aspx"><span>游戏</span></a></li>
-                        <li><a id="A5" runat="server" href="~/Software/DownLoad.aspx"><span>加入我们</span></a></li>
+                        <li><a id="A3" runat="server" href="~/">LOGO</a></li>
+                        <li><a id="A6" runat="server" href="~/Shopping/ShopList.aspx" >公司</a></li>
+                        <li><a id="A4" runat="server" href="~/Register.aspx">游戏</a></li>
+                        <li><a id="A5" runat="server" href="~/Software/DownLoad.aspx">加入我们</a></li>
                     </ul>
                 </nav>
-        </div>
     </header>
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
