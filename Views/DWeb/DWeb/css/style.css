@@ -2,6 +2,8 @@ body{
 	margin:0;
 	/*font-family: 'SimSun';*/
 	font-family: "Î¢ÈíÑÅºÚ", Helvetica, Arial, sans-serif;
+    display:flexbox;
+    flex-direction:column;
 }
 /*
 @font-face {
@@ -22,6 +24,12 @@ h1,h2,h3,h4,h5,h6{
 }
 p{
 	margin:0;
+}
+.float-left {
+    float:left;
+}
+.float-right {
+    float:right;
 }
 ul,label{
 	margin:0;
@@ -231,9 +239,13 @@ span.glyphicon.glyphicon-search:focus {
 	background-color:#000000;
 }
 nav.navbar.navbar-default {
+    display:inline-block;
+    float:left;
     background-color: inherit;
     border: none;
     margin: 0;
+    position:relative;
+    bottom:0;
 }	
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav li a.active{
     color: #fff;
@@ -330,6 +342,47 @@ a.bnr-about.bnr-news {
     color: #fff;
 }
 /*--//banner--*/
+
+.albums {
+    padding: 5em 0;
+    margin:auto;
+    background-color:#101010;
+    color:white;
+}
+.services-grids .moments-bottom {
+  overflow: hidden;
+}
+.services-grids {
+    display:block;
+    clear:both;
+}
+.moments-bottom {
+    display: inline-block;
+    width: 40%;
+}
+.caption.services-caption {
+  padding: 1.5em;
+  border: 1px solid #356272;
+}
+.game-content {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    vertical-align: central;
+    text-align: center;
+}
+    .caption.services-caption h2 {
+        margin: 10px;
+    }
+.caption.services-caption p {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
 /*------------------ Slider Part starts Here----------*/
 #slider2,
 #slider3 {
@@ -717,6 +770,9 @@ a.play-icon span {
 /*--albums--*/
 .albums {
     padding: 5em 0;
+    margin:auto;
+    background-color:#101010;
+    color:white;
 }
 .row.services-info {
     margin-top: 5em;
@@ -729,20 +785,20 @@ a.play-icon span {
 .services-grids .moments-bottom {
   overflow: hidden;
 }
+.moments-bottom {
+    display:inline-block;
+        width:50%;
+}
 .caption.services-caption {
   padding: 1.5em;
   border: 1px solid #356272;
 }
-.caption.services-caption h4 {
-    font-size: 1.8em;
-    margin: 0 0 0.3em;
-    color: #4B307F;
-    font-family: 'SimSun';
-}
+    .caption.services-caption h2 {
+        margin: 10px;
+    }
 .caption.services-caption p {
-  font-size: 1em;
-  color: #333;
-  line-height: 1.8em;
+  font-size: 18px;
+  line-height: 20px;
 }
 img.zoom-img {
      transform: scale(1, 1);
@@ -1089,7 +1145,10 @@ a.play-icon span {
     font-size: 3.5em;
 }
 .albums {
-    padding: 3em 0;
+    padding: 5em 0;
+    margin:auto;
+    background-color:#101010;
+    color:white;
 }
 .row.services-info {
     margin-top: 4em;
@@ -1183,6 +1242,9 @@ img.img-responsive.zoom-img {
 }
 .albums {
     padding: 3em 0 1.5em;
+    margin:auto;
+    background-color:#101010;
+    color:white;
 }
 .services-grids {
     padding-left: 0;
@@ -1359,15 +1421,18 @@ a.play-icon span {
 }
 .albums {
     padding: 1em 0 1.5em;
+    margin:auto;
+    background-color:#101010;
+    color:white;
 }
 .row.services-info {
     margin: 2.5em 0 0 0;
 }
-.caption.services-caption h4 {
-    font-size: 1.5em;
-}
+    .caption.services-caption h2 {
+        margin: 5px;
+    }
 .caption.services-caption p {
-    font-size: 0.9em;
+  font-size: 12px;
 }
 .caption.services-caption {
     padding: 1em;
@@ -1544,11 +1609,14 @@ h3.title {
 }
 .services-grids {
     padding: 0;
-    float: none;
+    /*float: none;*/
     width: 100%;
 }
 .albums {
     padding: 1em 0 0.5em;
+    margin:auto;
+    background-color:#101010;
+    color:white;
 }
 .news {
     padding: 2em 0;
@@ -1700,8 +1768,11 @@ a.play-icon span {
 .team-grids a .captn {
     bottom: -88%;
 }
+    .caption.services-caption h2 {
+        margin: 2px;
+    }
 .caption.services-caption p {
-    font-size: 0.85em;
+  font-size: 10px;
 }
 .caption.services-caption {
     padding: 1em 0.5em;
