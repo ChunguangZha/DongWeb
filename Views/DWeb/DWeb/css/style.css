@@ -234,29 +234,43 @@ span.glyphicon.glyphicon-search:focus {
 /*--//header--*/
 /*--top-nav--*/
 .top-nav {
-	height:70px;
+	position:fixed;
+	min-height:70px;
 	text-align:left;
-	background-color:#000000;
+	background-color:none;
+	z-index:300;
 }
+	.top-nav img
+	{
+		float:left;
+		margin:0 20px;
+	}
 nav.navbar.navbar-default {
     display:inline-block;
     float:left;
     background-color: inherit;
     border: none;
     margin: 0;
-    position:relative;
-    bottom:0;
-}	
+}
+nav.navbar
+{
+	position:relative;
+	display:inline-block;
+	vertical-align:bottom;
+	top:20px;
+	float:left;
+}
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav li a.active{
     color: #fff;
 	/*rgb(75, 48, 127);*/
-    background-color: #000;
+    background-color: red;
 }
 /* Effect 11: text fill based on Lea Verou's animation http://dabblet.com/gist/6046779 */
+
 .top-nav ul li a {
     text-decoration: none;
-    font: 700 20px 黑体;
-    padding: 0.5em 2em;
+    font: 700 24px 黑体;
+    padding: 5px 50px;
 }
 .top-nav ul li a:hover,
 .top-nav ul li a:focus {
@@ -284,26 +298,16 @@ nav.navbar.navbar-default {
     position: relative;
 }
 .banner{
-	background:url(../images/1.jpg)no-repeat 0px 0px;	
+	background:url(../images/header1.jpg)no-repeat 0px 0px;	
 	background-size:cover; 
 	height:100vh;
 }
 .banner1{
-	background:url(../images/2.jpg)no-repeat 0px 0px;
+	background:url(../images/header2.jpg)no-repeat 0px 0px;
 	background-size:cover; 
 }
 .banner2{
-	background:url(../images/3.jpg)no-repeat 0px 0px;
-	background-size:cover; 
-}
-
-.banner3{
-	background:url(../images/4.jpg)no-repeat 0px 0px;
-	background-size:cover; 
-}
-
-.banner4{
-	background:url(../images/5.jpg)no-repeat 0px 0px;
+	background:url(../images/header3.jpg)no-repeat 0px 0px;
 	background-size:cover; 
 }
 
@@ -573,6 +577,54 @@ a.bnr-about.bnr-news {
 	border: 2px solid #000;
 	height:100px;
 	width:100px;
+}
+
+/* footer
+----------------------------------------------------------*/
+footer div.footer-link
+{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:30px;
+}
+footer li
+{
+	display:inline-block;
+	line-height:50px;
+	margin-top:50px;
+	margin-right:50px;
+	text-align:left;
+}
+a.ubi-btn
+{
+	display:inline-block;
+	color:white;
+	height:50px;
+	vertical-align:central;
+	text-align:center;
+}
+a.wx-icon
+{
+	background-color:#454545;
+	background-position: 95% 50%;
+	background-image: url('../Images/wx_ico.png');
+	background-repeat: no-repeat;
+	font-size: 14px;
+	padding: 5px 50px 5px 20px;
+	width: 100%;
+}
+
+a.wb-icon
+{
+	background-color: #454545;
+	background-position: 95% 50%;
+	background-image: url('../images/wb_ico.png');
+	background-repeat: no-repeat;
+	font-size: 14px;
+	padding: 5px 50px 5px 20px;
+	width: 100%;
 }
 /*
 .scrollIcon
@@ -1115,8 +1167,9 @@ img.zoom-img:hover {
     min-height: 540px;
 }
 .top-nav ul li a {
-    font-size: 1em;
-    padding: 0.6em 4em;
+    text-decoration: none;
+    font: 500 20px 黑体;
+    padding: 4px 8px;
 }
 h3.title {
     font-size: 3.5em;
@@ -1542,7 +1595,9 @@ fieldset#body {
     padding: 15px;
 }
 .top-nav ul li a {
-    font-size: 1.1em;
+    text-decoration: none;
+    font: 300 16px 黑体;
+    padding: 4px 8px;
 }
 .banner-text h1 {
     font-size: 2.4em;
@@ -1685,7 +1740,9 @@ form.navbar-form.navbar-right {
     margin-right: 0.5em;
 }
 .top-nav ul li a {
-    font-size: 1em;
+    text-decoration: none;
+    font: 200 10px 黑体;
+    padding: 4px 8px;
 }
 .navbar-toggle {
     padding: 8px 9px;
