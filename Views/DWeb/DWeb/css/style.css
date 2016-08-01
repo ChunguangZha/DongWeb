@@ -239,11 +239,14 @@ a.bnr-about.bnr-news {
 }
 /*--//banner--*/
 
+/*--albums--*/
 .albums {
     padding: 5em 0;
-    margin:auto;
-    background-color:#101010;
-    color:white;
+    margin: auto;
+    background-color: #101010;
+    color: white;
+    background-image: url('../images/background_nebula.jpg');
+    background-repeat: repeat-y;
 }
 .services-grids .moments-bottom {
   overflow: hidden;
@@ -471,6 +474,51 @@ a.bnr-about.bnr-news {
 	width:100px;
 }
 
+/*--about--*/
+.about, .team, .about-skills {
+    padding: 6em 0;
+}
+h3.title {
+    font-size: 3em;
+    color: #FFFFFF;
+	font-family: "Î¢ÈíÑÅºÚ", Helvetica, Arial, sans-serif;
+    text-align: center;
+    border: 0px solid;
+    width: 32%;
+    margin: 0 auto 1em;
+    padding: .2em 0 0;
+}
+.about-left {
+    padding: 0;
+    background: url('../images/about_us_1920x1080_30.jpg') no-repeat 0px 0px;
+    min-height: 260px;
+}
+.about-right {
+    background-color: #FFFFFF;
+    padding: 2em 2em;
+    min-height: 260px;
+    width:300px;
+    float:right;
+}
+.about h4 {
+    font-size: 2em;
+	font-family: "Î¢ÈíÑÅºÚ", Helvetica, Arial, sans-serif;
+    color: #5114C7;
+    line-height: 1.2em;
+}
+.about p {
+    font-size: 1.8em;
+    line-height: 1.8em;
+    margin-top: 1em;
+    color: #333;
+}
+.about-bottom {
+    margin-top: 8em;
+}
+.about-bottom .about-right {
+    background: none;
+    padding: 0em 2em 0 0;
+}
 /* footer
 ----------------------------------------------------------*/
 footer div.footer-link
@@ -591,7 +639,7 @@ h3.title {
 }
 .about-left {
     padding: 0;
-    background: url(../images/img1.jpg)no-repeat 0px 0px;
+    background: url('../images/about_us_1920x1080_30.jpg') no-repeat 0px 0px;
     background-size: cover;
     min-height: 260px;
 }
@@ -711,13 +759,6 @@ a.play-icon span {
 }
 --*/
 /*--//team--*/
-/*--albums--*/
-.albums {
-    padding: 5em 0;
-    margin:auto;
-    background-color:#101010;
-    color:white;
-}
 .row.services-info {
     margin-top: 5em;
 }
@@ -1067,7 +1108,7 @@ h3.title {
     font-size: 3em;
 }
 .about, .team, .about-skills {
-    padding: 5em 0;
+    padding: 2em 2em;
 }
 .about h4 {
     font-size: 1.8em;
@@ -1081,7 +1122,7 @@ a.play-icon span {
 }
 @media (max-width:1080px){
 .about-right {
-    padding: 2em 2.4em;
+    padding: 2em 2em;
 }
 .about-bottom {
     margin-top: 6em;
@@ -1140,7 +1181,7 @@ a.bnr-about {
     min-height: 480px;
 }
 .about, .team, .about-skills {
-    padding: 4em 0;
+    padding: 1.8em 1.8em;
 }
 h3.title {
     font-size: 2.5em;
@@ -1517,9 +1558,6 @@ h3.title {
     border-width: 3px;
 	margin: 0 auto 0.8em;
 }
-.about-right {
-    padding: 1em;
-}
 .about h4 {
     font-size: 1.4em;
 }
@@ -1527,7 +1565,7 @@ h3.title {
     margin-top: 1.5em;
 }
 .about-bottom .about-right {
-    padding: 0em 0 1.5em 0;
+    padding: 0em 0 .5em 0;
 }
 .skills h3 {
     font-size: 1.3em;

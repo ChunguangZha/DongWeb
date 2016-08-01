@@ -1087,11 +1087,10 @@ html {
 }
 body {
   font-family: "Î¢ÈíÑÅºÚ", Helvetica, Arial, sans-serif;
-  font-size: 11px;
+  font-size: 1em;
   line-height: 1.42857143;
   color: #333;
   background-color: #000;
-  font-weight: bold;
 }
 input,
 button,
@@ -1948,7 +1947,7 @@ pre code {
     width: 66.66666667%;
   }
   .col-md-7 {
-    width: 58.33333333%;
+    width: 100%;
   }
   .col-md-6 {
     width: 50%;
