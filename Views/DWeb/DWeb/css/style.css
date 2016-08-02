@@ -159,8 +159,8 @@ nav.navbar
 
 .top-nav ul li a {
     text-decoration: none;
-    font: 700 24px 黑体;
-    padding: 5px 50px;
+    font: 700 2.5em 黑体;
+    padding: .5em 2.5em;
 }
 .top-nav ul li a:hover,
 .top-nav ul li a:focus {
@@ -494,11 +494,14 @@ h3.title {
     min-height: 260px;
 }
 .about-right {
-    background-color: #FFFFFF;
+	position:relative;
+    background-color: #eef0ef;
     padding: 2em 2em;
-    min-height: 260px;
+    height: 60%;
     width:300px;
     float:right;
+	margin:auto 2em;
+	vertical-align:central;
 }
 .about h4 {
     font-size: 2em;
@@ -778,7 +781,8 @@ a.play-icon span {
   padding: 1.5em;
   border: 1px solid #356272;
 }
-    .caption.services-caption h2 {
+    .caption.services-caption h4 {
+		color:#19314c;
         margin: 10px;
     }
 .caption.services-caption p {
@@ -1085,7 +1089,7 @@ img.zoom-img:hover {
 @media (max-width:1366px){
 }
 @media (max-width:1280px){
-.banner-text {
+/*.banner-text {
     top: 26%;
     left: 8%;
 }
@@ -1101,8 +1105,8 @@ img.zoom-img:hover {
 }
 .top-nav ul li a {
     text-decoration: none;
-    font: 500 20px 黑体;
-    padding: 4px 8px;
+    font: 500 2em 黑体;
+    padding: .5em 2.5em;
 }
 h3.title {
     font-size: 3em;
@@ -1118,7 +1122,7 @@ h3.title {
 }
 a.play-icon span {
     top: 142px;
-}
+}*/
 }
 @media (max-width:1080px){
 .about-right {
@@ -1168,7 +1172,8 @@ a.play-icon span {
 }
 @media (max-width:991px){
 .top-nav ul li a {
-    padding: 1.2em 1.5em;
+    font: 500 2em 黑体;
+    padding: .5em 2em;
 }
 .banner-text {
     left: 15%;
@@ -1529,8 +1534,8 @@ fieldset#body {
 }
 .top-nav ul li a {
     text-decoration: none;
-    font: 300 16px 黑体;
-    padding: 4px 8px;
+    font: 300 1em 黑体;
+    padding: .5em 1em;
 }
 .banner-text h1 {
     font-size: 2.4em;
@@ -1671,8 +1676,8 @@ form.navbar-form.navbar-right {
 }
 .top-nav ul li a {
     text-decoration: none;
-    font: 200 10px 黑体;
-    padding: 4px 8px;
+    font: 200 1em 黑体;
+    padding: .2em .5em;
 }
 .navbar-toggle {
     padding: 8px 9px;
