@@ -1,6 +1,28 @@
 ﻿body {
 }
 
+p
+{
+	font-size:12pt;
+}
+
+div.aboutus
+{
+	background-position:0 0;
+	background-color:white;
+	background-size:cover;
+	min-height:300px;
+}
+	div.aboutus about-us-left
+	{
+		float:left;
+	}
+	div.aboutus img.about-us-img
+{
+	width: 400px;
+	margin:30px;
+}
+
 
 img.zoom-img {
 	z-index:100;
